@@ -265,3 +265,50 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  nav h1 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+  }
+  nav div a {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .phone-hide {
+    display: none;
+  }
+  .home .space-images img {
+    width: 100%;
+    margin: 0px 1.75rem;
+  }
+  .home .walk {
+    margin: 0px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-text .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+  }
+}
