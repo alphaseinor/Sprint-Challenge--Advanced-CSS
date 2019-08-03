@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website uses static layouts based on non-responsive breakpoints, once the page is loaded it won't change, for an example if a mobile device is rotated, or a desktop window is resized. A responsive website will change under these conditions. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+The idea is to design the page to first work with a mobile device, then move to larger devices next.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+I think it will give us an index REM of 16px*.625 which would be 10px
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessing is a way to more easily organize your css code. It allows for variables, functions (mix ins), common text items, and multiple css files to be included into one css file
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite is @import, it allows you to work variables in one file, mix ins in another, and even have event driven css in a file.
+
+The concept that gives me the most trouble is mix-ins, I understand the power of them, but I'm not always able to make them do the things I want them to do. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,7 +62,7 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
