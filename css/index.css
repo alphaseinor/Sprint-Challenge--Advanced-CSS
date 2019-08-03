@@ -252,6 +252,13 @@ footer {
   background-color: #23293B;
   border-radius: 0.5rem;
 }
+.home .walk .walk-text .btn:hover {
+  font-size: 1.75rem;
+  padding: 1rem 2rem;
+  color: #23293B;
+  background-color: #F6F7F8;
+  border-radius: 0.5rem;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
