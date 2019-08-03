@@ -187,12 +187,23 @@ p {
 }
 .login-box .input-box input {
   width: 100%;
-  padding: 16px;
+  padding: 1.6rem;
+  font-size: 1.6rem;
   color: #F6F7F8;
-  margin-bottom: 30px;
-  border: 1px solid #F6F7F8;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: 1px solid #F6F7F8;
   outline: none;
   background: transparent;
+}
+.login-box .input-box label {
+  position: absolute;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+  color: #F6F7F8;
 }
 nav {
   display: flex;
