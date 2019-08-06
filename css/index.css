@@ -1,3 +1,4 @@
+@submit ~("type["submit"]");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -162,6 +163,56 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 30rem;
+  padding: 4rem;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0 1.5rem 25rem rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+.login-box h2 {
+  color: #F6F7F8;
+  margin: 0 0 3rem;
+  padding: 0;
+  text-align: center;
+}
+.login-box .input-box {
+  position: relative;
+}
+.login-box .input-box input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: #F6F7F8;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: 1px solid #F6F7F8;
+  outline: none;
+  background: transparent;
+}
+.login-box .input-box input:focus ~ label,
+.login-box .input-box input:valid ~ label {
+  top: -1.8rem;
+  left: 0px;
+  color: #81848E;
+  font-size: 1.2rem;
+}
+.login-box .input-box label {
+  position: absolute;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+  color: #F6F7F8;
+  transition: 0.5s;
 }
 nav {
   display: flex;
