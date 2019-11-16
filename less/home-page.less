@@ -9,9 +9,13 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
+    img{
+      width: 100%;
+      border-radius: .5rem;
+    }
   }
 
   .space-images {
@@ -47,6 +51,7 @@
     justify-content: center;
 
     .walk-text {
+      .custom-flex(column, space-between, flex-start);
       width: 50%;
 
       h3 {
@@ -58,7 +63,9 @@
       }
 
       .btn {
+        .custom-button(@porcelain, @ebony-clay);
       }
+
     }
 
     .walk-img {
